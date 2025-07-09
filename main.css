@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Шапка */
+header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1000;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #555;
+}
+
+.nav-menu a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-menu a:hover {
+  color: #0066cc;
+}
+
+/* Баннер */
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #f7f7f7;
+  align-items: center;
+}
+
+.banner-text {
+  flex: 1 1 400px;
+  padding: 30px;
+}
+
+.banner-text h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.banner-text ul {
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.banner-text ul li {
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+.banner-text button {
+  padding: 14px 28px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.banner-image {
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.banner-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Уровни */
+.levels {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.levels h2 {
+  margin-bottom: 40px;
+  font-size: 28px;
+}
+
+.level-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.level {
+  flex: 1 1 250px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.level h3 {
+  margin-top: 0;
+  color: #0066cc;
+}
+
+/* Форма */
+.contact-form {
+  padding: 60px 20px;
+  background-color: #f7f7f7;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  padding: 12px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Подвал */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-nav,
+.footer-legal {
+  margin-bottom: 20px;
+}
+
+footer a {
+  color: #ccc;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+.footer-copy {
+  font-size: 12px;
+  color: #888;
+}
+
+/* Адаптив */
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+  }
+
+  .banner-text,
+  .banner-image {
+    padding: 10px;
+  }
+
+  .nav-menu {
+    width: 100%;
+    text-align: right;
+    margin-top: 10px;
+  }
+
+  .nav-menu a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+}
