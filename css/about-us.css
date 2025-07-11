@@ -17,6 +17,7 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 12px;
+  animation: fadeIn 1s ease;
 }
 
 /* Шапка */
@@ -70,6 +71,7 @@ header {
 
 .intro-text {
   flex: 1 1 400px;
+  animation: fadeIn 1s ease;
 }
 
 .intro-text h1 {
@@ -82,6 +84,7 @@ header {
   font-size: 16px;
   margin-bottom: 15px;
   line-height: 1.6;
+  text-align: justify;
 }
 
 .intro-image {
@@ -99,6 +102,7 @@ header {
   padding: 80px 20px;
   background: #f1f1f1;
   text-align: center;
+  animation: fadeIn 1s ease;
 }
 
 .teachers-section h2 {
@@ -138,6 +142,7 @@ header {
   padding: 80px 20px;
   background: linear-gradient(to right, #b3ffe2, #ecf4ff);
   text-align: center;
+  animation: fadeIn 1s ease;
 }
 
 .gallery-section h2 {
@@ -182,6 +187,7 @@ header {
   padding: 80px 20px;
   background: linear-gradient(to right, #fefae0, #f5f5dc);
   text-align: center;
+  animation: fadeIn 1s ease;
 }
 
 .reviews h2 {
@@ -226,6 +232,7 @@ header {
 .contact-form {
   padding: 80px 20px;
   background: linear-gradient(to right, #f3f7ff, #f8eaff);
+  animation: fadeIn 1s ease;
 }
 
 .contact-form h2 {
@@ -394,4 +401,10 @@ footer a:hover {
   .nav-menu a {
     margin: 10px;
   }
+}
+
+/* Анимации */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
 }

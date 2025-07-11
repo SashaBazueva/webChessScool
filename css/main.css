@@ -17,6 +17,7 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 12px;
+  animation: fadeIn 1s ease;
 }
 
 /* Шапка */
@@ -112,6 +113,7 @@ header {
   padding: 80px 20px;
   background: linear-gradient(to bottom, #fff6e3, #fffdf5);
   text-align: center;
+  animation: fadeIn 1s ease;
 }
 
 .levels h2 {
@@ -162,6 +164,7 @@ header {
 .contact-form {
   padding: 80px 20px;
   background: linear-gradient(to right, #f3f7ff, #f8eaff);
+  animation: fadeIn 1s ease;
 }
 
 .contact-form h2 {
