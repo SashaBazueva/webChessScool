@@ -108,13 +108,28 @@ header {
 
 /* Карточки курсов */
 .course-card {
-  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
   border-radius: 14px;
-  padding: 25px 30px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
+  padding: 20px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  gap: 20px;
   animation: fadeInUp 0.8s ease forwards;
   opacity: 0;
+}
+
+.course-content {
+  flex: 1;
+}
+
+.course-image img {
+  width: 180px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .course-card h2 {
@@ -212,24 +227,27 @@ footer a:hover {
     font-size: 18px;
   }
 
+  .course-image img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 15px;
+  }
+
   .course-card p {
     font-size: 14px;
   }
 
   .nav-menu {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    margin-top: 10px;
   }
 
-  header {
-    flex-direction: column;
-    align-items: flex-start;
+  .nav-menu a {
+    margin: 10px;
   }
 
-  .logo {
-    margin-bottom: 10px;
-  }
 }
 
 @media (max-width: 480px) {

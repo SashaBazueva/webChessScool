@@ -197,19 +197,16 @@ footer a:hover {
   }
 
   .nav-menu {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    margin-top: 10px;
   }
-
-  header {
-    flex-direction: column;
-    align-items: flex-start;
+  
+  .nav-menu a {
+    margin: 10px;
   }
-
-  .logo {
-    margin-bottom: 10px;
-  }
+  
 }
 
 @media (max-width: 480px) {
