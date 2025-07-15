@@ -117,6 +117,10 @@ header {
   color: #1b1b1b;
 }
 
+.link {
+  text-decoration: underline;
+}
+
 form input {
   width: 90%;
   padding: 12px 7px;
