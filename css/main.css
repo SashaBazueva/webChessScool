@@ -271,6 +271,7 @@ footer a:hover {
 
 
 /* Кнопки Войти и Зарегистрироваться */
+/* Кнопки в хедере */
 .auth-buttons {
   display: inline-flex;
   gap: 10px;
@@ -289,23 +290,23 @@ footer a:hover {
 }
 
 .btn.login {
-  background-color: transparent;
-  color: #0066cc;
-  border: 2px solid #0066cc;
+  background-color: #f28202;
+  color: #ffffff;
+  border: 2px solid #f28202;
 }
 
 .btn.login:hover {
-  background-color: #0066cc;
-  color: #fff;
+  background-color: #fff;
+  color: #f28202;
 }
 
 .btn.register {
-  background-color: #d77301;
-  color: #fff;
-  border: 2px solid #d77301;
+  background-color: #35a302;
+  color: #ffffff;
+  border: 2px solid #35a302;
 }
 
 .btn.register:hover {
-  background-color: #ff8b18;
-  border-color: #ff8b18;
+  background-color: #fff;
+  color: #35a302;
 }
