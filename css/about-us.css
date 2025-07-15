@@ -219,10 +219,11 @@ header {
   height: 60px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .review .stars {
+  margin-top: 0;
   color: #FFD700;
   font-size: 18px;
   margin-bottom: 10px;
