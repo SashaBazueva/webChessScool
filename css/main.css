@@ -60,7 +60,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   background: linear-gradient(to right, #b3ffe2, #ecf4ff);
-  min-height: 100vh;
+  min-height: 90vh;
   padding: 0px 10px;
 }
 
