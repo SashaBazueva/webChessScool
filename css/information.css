@@ -70,84 +70,25 @@ header {
 }
 
 .btn.login {
-  background-color: #f28202;
-  color: #ffffff;
-  border: 2px solid #f28202;
+  background-color: transparent;
+  color: #0066cc;
+  border: 2px solid #0066cc;
 }
 
 .btn.login:hover {
-  background-color: #fff;
-  color: #f28202;
+  background-color: #0066cc;
+  color: #fff;
 }
 
 .btn.register {
-  background-color: #35a302;
-  color: #ffffff;
-  border: 2px solid #35a302;
+  background-color: #d77301;
+  color: #fff;
+  border: 2px solid #d77301;
 }
 
 .btn.register:hover {
-  background-color: #fff;
-  color: #35a302;
-}
-.register-link {
-  margin-top: 20px;
-  font-size: 14px;
-}
-
-/* Регистрация */
-.register-page {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 60px 20px;
-}
-
-.register-container {
-  background-color: #fff;
-  padding: 40px 30px;
-  border-radius: 16px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-  max-width: 400px;
-  width: 100%;
-  text-align: center;
-  animation: fadeIn 0.8s ease;
-}
-
-.register-container h2 {
-  margin-bottom: 25px;
-  font-size: 24px;
-  color: #1b1b1b;
-}
-
-.link {
-  text-decoration: underline;
-}
-
-form input {
-  width: 90%;
-  padding: 12px 7px;
-  margin-bottom: 15px;
-  font-size: 16px;
-  border: 1.5px solid #ccc;
-  border-radius: 8px;
-}
-
-form button {
-  width: 95%;
-  padding: 14px;
-  font-size: 16px;
-  background-color: #38b000;
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-form button:hover {
-  background-color: #2a8600;
+  background-color: #ff8b18;
+  border-color: #ff8b18;
 }
 
 /* Подвал */
@@ -189,4 +130,36 @@ footer a:hover {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: #1b1b1b;
+  flex: 1 1 500px;
+  padding-left: 40px;
+  animation: fadeIn 1s ease;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #1b1b1b;
+  flex: 1 1 500px;
+  padding-left: 40px;
+  animation: fadeIn 1s ease;
+}
+
+p {
+  font-size: 16px;
+  animation: fadeIn 1s ease;
+  color: #333;
+  padding-left: 60px;
+}
+
+li {
+  font-size: 16px;
+  animation: fadeIn 1s ease;
+  color: #333;
+  margin-left: 40px;
 }
