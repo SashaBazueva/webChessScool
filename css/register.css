@@ -90,6 +90,10 @@ header {
   background-color: #fff;
   color: #35a302;
 }
+.register-link {
+  margin-top: 20px;
+  font-size: 14px;
+}
 
 /* Регистрация */
 .register-page {
